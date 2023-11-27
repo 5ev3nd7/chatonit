@@ -20,7 +20,7 @@ function Header() {
           <MenuIcon/>
         </MenuIconButton>
         */}
-        <h3 className={isNavExpanded ? "expanded" : ""}>Donkey Chat</h3>
+        <h2 className={isNavExpanded ? "expanded" : ""}>ChatOnit</h2>
       </HeaderLeft>
 
       <HeaderCenter>
@@ -63,7 +63,7 @@ const HeaderLeft = styled.div`
   flex: 1;
 
   align-items: center;
-  h3 {
+  h2 {
     color: var(--chatonit-gray-700);
     padding-left: 20px; 
     font-size: 18px;
