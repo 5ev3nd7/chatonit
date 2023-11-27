@@ -14,7 +14,7 @@ function Login() {
   return (
     <LoginContainer>
       <LoginInnerContainer>
-        <img src="{process.env.PUBLIC_URL + '/chatonit_logo.png'}" alt=""/>
+        <img src="/chatonit_logo.png" alt=""/>
         <p>Sign in to</p>
         <h1>ChatOnit</h1>
         <Button type="submit" onClick={signIn}>
