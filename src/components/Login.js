@@ -14,9 +14,9 @@ function Login() {
   return (
     <LoginContainer>
       <LoginInnerContainer>
-        <img src="https://www.pngitem.com/pimgs/m/530-5306308_the-essential-guide-800x954-png-download-donkey-shrek.png" alt=""/>
+        <img src="/public/chatonit_logo.png" alt=""/>
         <p>Sign in to</p>
-        <h1>Chat_on_it</h1>
+        <h1>ChatOnit</h1>
         <Button type="submit" onClick={signIn}>
           Sign in with Google
         </Button>
